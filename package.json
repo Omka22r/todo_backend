@@ -1,17 +1,21 @@
 {
-  "name": "todo_backend",
-  "version": "1.0.0",
-  "description": "Backend for react todo Application",
-  "main": "server.js",
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
-  "author": "Omkar Sidhu",
-  "license": "ISC",
+  "engines": {
+    "node": "12"
+  },
+  "main": "index.js",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.12.5"
+  },
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }

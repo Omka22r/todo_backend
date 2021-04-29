@@ -1,0 +1,16 @@
+version: "3"
+services:
+  todo-app:
+    container_name: todo-app
+    image: todowebapp
+    restart: always
+    build: .
+    ports:
+      - "8080:8000"
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - "27018:2701"
