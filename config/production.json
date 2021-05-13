@@ -1,0 +1,10 @@
+{   "name": "Production",
+    "app": {
+        "port": 3352,
+        "ip":"0.0.0.0",
+        "https_port":9004
+    },
+    "db":{
+        "url":"mongodb+srv://admin:admin@todoappbackend.3fsqu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    } 
+}

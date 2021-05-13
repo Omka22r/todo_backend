@@ -1,0 +1,10 @@
+{   "name": "Development",
+    "app": {
+        "port": 3352,
+        "ip":"0.0.0.0",
+        "https_port":9004
+    },
+    "db":{
+        "url":"mongodb://localhost:27017/uses_db"
+    } 
+}

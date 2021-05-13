@@ -1,5 +1,5 @@
 module.exports = {
-    url: "mongodb://mongo:27017/uses_db" // Running on Docker Container
+    url: "mongodb+srv://admin:admin@todoappbackend.3fsqu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority" // Running on Docker Container
 
     // Running on localhost
     //  url: "mongodb://localhost:27017/uses_db"
